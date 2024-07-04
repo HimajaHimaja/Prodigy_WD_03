@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TIC-TAC-TOE</title>
+     <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>TIC-TAC-TOE</header>
+    <main>
+      <div class="display">
+        <div id="display 0ne">
+          <h1>PLAYER 1</h1>
+          <span>o</span>
+          <div id="displayo"></div>
+        </div>
+      </div>
+      <div class="main_display">
+        <div class="class" id="div1" onclick="fill(0)">&nbsp;</div>
+        <div class="class" id="div2" onclick="fill(1)">&nbsp;</div>
+        <div class="class" id="div3" onclick="fill(2)">&nbsp;</div>
+        <br />
+        <div class="class" id="div4" onclick="fill(3)">&nbsp;</div>
+        <div class="class" id="div5" onclick="fill(4)">&nbsp;</div>
+        <div class="class" id="div6" onclick="fill(5)">&nbsp;</div>
+        <br />
+        <div class="class" id="div7" onclick="fill(6)">&nbsp;</div>
+        <div class="class" id="div8" onclick="fill(7)">&nbsp;</div>
+        <div class="class" id="div9" onclick="fill(8)">&nbsp;</div>
+      </div>
+      <div class="display">
+        <div id="display two">
+          <h1>PLAYER 2</h1>
+          <span>x</span>
+          <div id="displayx"></div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <button id="restart" onclick="ResetGame()">Reset</button>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
